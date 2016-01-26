@@ -1,0 +1,65 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/* Layout */
+body
+{
+	width: 1280px;
+	height: 720px;
+	background-image: url("../images/optiooncub.png");
+}
+figure{
+	position: absolute;
+	top:10%;
+	border-bottom-style: solid;
+ 
+}
+img{
+width: 150px;
+height: 150px;
+}
+#fig1{
+	top : 40%;
+	right: 40%;
+	
+}
+#fig2{
+	top : 40%;
+	right: 25%;
+	
+	
+}
+#fig3{
+	top : 40%;
+	right: 55%;
+	
+	
+}
+
+figcaption{ 
+font-weight:bold;
+text-align:center;
+text-shadow: buttonshadow;
+}
+.selected{
+	
+
+
+ border: red solid 3px;
+
+	
+}
+
+#popup{
+	background-image: url("../images/popup.png");
+	position: absolute;
+	top: 30%;
+	right: 40%;
+	visibility: hidden;
+	width: 250px;
+	height: 200px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>cuberu</title>
+
+		<!-- TODO : Common API -->
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+
+		<!-- TODO : Javascript code -->
+		<script language="javascript" type="text/javascript" src="app/javascript/play2.js"></script>
+
+		<!-- TODO : Style sheets code -->
+		<link rel="stylesheet" href="app/stylesheets/Play2.css" type="text/css">
+
+		<!-- TODO: Plugins -->
+
+	</head>
+
+	<body onload="Main.onLoad();" onunload="Main.onUnload();">
+
+		<!-- Dummy anchor as focus for key events -->
+		<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
+            <img id="popup" src="app/images/popup.png" style="display:none;position:absolute;top:5%;left:20%;z-index:999;" />
+  <img id="loading" src="app/images/loading.gif" width="1280" height="720" >
+		<div id="wrapper">
+    <canvas id="c" width="1280" height="720"></canvas>
+    <div id="player"></div>
+    <div id="msg">CUBERU<br><br><br>>Press up to begin</div>
+</div>
+	</body>
+</html>

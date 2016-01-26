@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>About Us</title>
+
+		<!-- TODO : Common API -->
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/jquery.js"></script>
+        <script type="text/javascript" language='javascript' src="$MANAGER_WIDGET/Common/API/Plugin.js"></script>
+		<!-- TODO : Javascript code -->
+		<script language="javascript" type="text/javascript" src="app/javascript/settings.js"></script>
+
+		<!-- TODO : Style sheets code -->
+		<link rel="stylesheet" href="app/stylesheets/settings.css" type="text/css">
+
+		<!-- TODO: Plugins -->
+<object id="pluginObjectTVMW" border=0 classid="clsid:SAMSUNG-INFOLINK-TVMW"></object>
+		<object id="pluginObjectNNavi" border=0 classid="clsid:SAMSUNG-INFOLINK-NNAVI"></object>
+		<object id="pluginObjectAudio" border=0 classid="clsid:SAMSUNG-INFOLINK-AUDIO"></object>
+	</head>
+
+	<body onload="Main.onLoad();" onunload="Main.onUnload();">
+
+		<!-- Dummy anchor as focus for key events -->
+		<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
+		<audio autoplay="autoplay" src="intro.mp3"></audio>
+		<object id="pluginObjectAudio" border=0
+		classid="clsid:SAMSUNG-INFOLINK-AUDIO"></object>
+		
+		<figure id="fig1"><img src="app/images/bluecub.png"/> </figure>
+		<figure id="fig2"><img src="app/images/pinkcub.png"/> </figure>
+			<figure id="fig3"><img src="app/images/ghostcub.png"/> </figure>
+		
+		
+	
+		<!-- TODO: your code here -->
+		<div id="popup"></div>
+	</body>
+</html>

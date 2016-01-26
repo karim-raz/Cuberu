@@ -1,0 +1,61 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/* Layout */
+body
+{
+	width: 1280px;
+	height: 720px;
+}
+html {
+    width: 100%;
+    height: 100%;
+    background: #31618c;
+    background: -moz-linear-gradient(top,  #a85b28 0%, #f07d31 50%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a85b28), color-stop(50%,#f07d31));
+    background: -webkit-linear-gradient(top,  #a85b28 0%,#f07d31 50%);
+    background: -o-linear-gradient(top,  #a85b28 0%,#f07d31 50%);
+    background: -ms-linear-gradient(top,  #a85b28 0%,#f07d31 50%);
+    background: linear-gradient(top,  #3a85b28 0%,#f07d31 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a85b28', endColorstr='#f07d31',GradientType=0 );
+}
+
+#wrapper {
+    position: fixed;
+    width: 3560px;
+    height: 1440px;
+    
+}
+
+#canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#msg {
+    position: absolute;
+    top: 60px;
+    display: block;
+    width: 640px;
+    color: #FFF;
+    font: 32pt monospace;
+    text-align: center;
+}
+
+#player {
+    position: absolute;
+    top: 198px;
+    left: 128px;
+    display: none;
+    width: 26px;
+    height: 26px;
+   
+    
+    background-image: url("../images/cuberu1.gif");
+     background-size:contain;
+   }

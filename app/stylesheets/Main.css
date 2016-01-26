@@ -1,0 +1,69 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/* Layout */
+body
+{
+	width: 1280px;
+	height: 720px;
+	background-image: url("../images/background.png");
+}
+figure{
+	position: absolute;
+	top:10%;
+	border-bottom-style: solid;
+ 
+}
+img{
+width: 150px;
+height: 150px;
+}
+#fig1{
+	top : 15%;
+	right: 9%;
+	
+}
+#fig2{
+	top : 40%;
+	right: 9%;
+	
+	
+}
+#fig3{
+	top : 15%;
+	right: 9%;
+	
+	
+}
+#fig4{
+	top : 40%;
+	right: 9%;
+	
+}
+figcaption{ 
+font-weight:bold;
+text-align:center;
+text-shadow: buttonshadow;
+}
+.selected{
+	
+
+
+  	opacity: 0;
+
+	
+}
+
+#popup{
+	background-image: url("../images/popup.png");
+	position: absolute;
+	top: 30%;
+	right: 40%;
+	visibility: hidden;
+	width: 250px;
+	height: 200px;
+}

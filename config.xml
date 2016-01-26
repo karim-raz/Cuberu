@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.samsung.com/">  
+  <cpname itemtype="string"/>  
+  <cplogo itemtype="string"/>  
+  <cpauthjs itemtype="string"/>  
+ <ThumbIcon itemtype="string">app/icon/sampleIcon_106_87.png</ThumbIcon>
+	<BigThumbIcon itemtype="string">app/icon/sampleIcon_115_95.png</BigThumbIcon>
+	<ListIcon itemtype="string">app/icon/sampleIcon_85_70.png</ListIcon>
+	<BigListIcon itemtype="string">app/icon/sampleIcon_95_78.png</BigListIcon>
+  <category itemtype="string"/>  
+  <autoUpdate itemtype="boolean">n</autoUpdate>  
+  <ver itemtype="string">0.100</ver>  
+  <mgrver itemtype="string"/>  
+  <fullwidget itemtype="boolean">y</fullwidget>  
+  <type itemtype="string">user</type>  
+  <srcctl itemtype="boolean">y</srcctl>  
+  <ticker itemtype="boolean">n</ticker>  
+  <childlock itemtype="boolean">n</childlock>  
+  <videomute itemtype="boolean">n</videomute>  
+  <dcont itemtype="boolean">y</dcont>  
+  <widgetname itemtype="string">Cuberu</widgetname>  
+  <description itemtype="string">Jump and fly your way through danger in this rhythm-based action platformer!
+"Cuberu Is a Super-Hard, Super-Fun Platform"
+"Cuberu provides all of the challenge expected from an “impossible” game while also making it more accessible to newcomers."
+
+"Cuberu is a fast-paced platformer that will leave you screaming in frustration, but you’ll keep coming back for more."
+
+"Cuberu isn't your typical rhythm-based game, it actually requires skill on top of good timing."
+
+Prepare for a near impossible challenge in the world of Cuberu. Push your skills to the limit as you jump, fly and flip your way through dangerous passages and spiky obstacles.
+Simple one touch game play with 3 levels that will keep you entertained for hours!
+</description>  
+  <width itemtype="string">1280</width>  
+  <height itemtype="string">720</height>  
+  <author itemtype="group"> 
+    <name itemtype="string"/>  
+    <email itemtype="string"/>  
+    <link itemtype="string"/>  
+    <organization itemtype="string"/> 
+  </author> 
+</widget>
